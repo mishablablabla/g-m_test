@@ -1,0 +1,26 @@
+.price {
+  padding: 4rem 10%;
+  background: linear-gradient(135deg, #1a1a1a, #111);
+  color: #fff;
+  text-align: center;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__amount {
+    font-size: 3rem;
+    font-weight: bold;
+
+    span {
+      color: #ff3c38;
+    }
+  }
+
+  &__note {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #aaa;
+  }
+}

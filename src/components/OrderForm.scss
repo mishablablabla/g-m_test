@@ -1,0 +1,109 @@
+.order {
+  padding: 5rem 10%;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #1a1a1a;
+  }
+
+  .order__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    input {
+      padding: 1rem;
+      font-size: 1.1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.3s;
+
+      &:focus {
+        border-color: #ff3c38;
+      }
+    }
+
+    button {
+      padding: 1.2rem;
+      background-color: #ff3c38;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+
+      &:hover {
+        background-color: #e02925;
+        transform: translateY(-3px);
+      }
+
+      &:active {
+        transform: translateY(1px);
+      }
+    }
+  }
+
+  .order__form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .order__form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .order__form input[type="text"],
+  .order__form input[type="email"],
+  .order__form input[type="tel"] {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+
+  .order__form button {
+    padding: 1.2rem;
+    background-color: #ff3c38;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+
+    &:hover {
+      background-color: #e02925;
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}
